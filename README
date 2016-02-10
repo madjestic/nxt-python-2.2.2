@@ -1,3 +1,14 @@
+This has been successfully tested on a Gentoo linux.  Both USB and Bluetooth
+communication works
+Bluetooth has been configured according to:
+http://www.thinkwiki.org/wiki/How_to_setup_Bluetooth
+
+Bluetooth activity can be observed via `bluetoothctl`,
+the communication occurs via rfcomm, read instructions here:
+http://bricxcc.sourceforge.net/nbc/doc/nxtlinux.txt
+
+
+
 NXT-Python is a package for controlling a LEGO NXT robot using the 
 Python programming language. It can communicate using either USB or 
 Bluetooth. It is available under the Gnu GPL v3 license. It is based on 
